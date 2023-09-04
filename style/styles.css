@@ -1,0 +1,64 @@
+body{
+    background-color: #F7F9FB;
+    font-family: Arial, sans-serif;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#first-line{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.timer{
+    font-size: 200px; /* Increase font size for the timer */
+    color: #777676;
+    margin-bottom: 20px; /* Add margin to separate timer from controls */
+}
+
+#controls{
+    margin-top: 55px;
+}
+
+.button{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding-bottom: 0;
+    background-color: #AAAAAA;
+    border: 1px solid #AAAAAA;
+    color: #F6F8FB;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#start-button{
+    border:1px #AEAEAE solid;
+    color: #AEAEAE;
+    font-weight: bold;
+    background-color: #F7F9FB;
+}
+
+#reset-button{
+    background-color: #4687D0;
+    border: 1px solid #4687D0;
+}
+
+.timer-setter{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 25%;
+}
+
+#edit-link{
+    color: #4687D0;
+    text-decoration: none;
+    margin-left: 5px;
+}
